@@ -158,10 +158,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### 📞 İletişim / Contact
 
-- Website: [aemreari.com](https://aemreari.com)
+- Website: [aemreari.com](https://aemreari.com.tr)
 - LinkedIn: [linkedin.com/in/aemreari](https://linkedin.com/in/aemreari)
-- GitHub: [github.com/aemreari](https://github.com/aemreari)
-- Email: aaemreari@gmail.com
+- GitHub: [github.com/aemreari](https://github.com/ahmetemreari)
+- Email: info@aemreari.com.tr
 
 ---
 
