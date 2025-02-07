@@ -121,7 +121,7 @@ This project is a personal portfolio website developed using modern web technolo
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/aemreari/portfolio-website.git
+git clone https://github.com/ahmetemreari/portfolio-website.git
 ```
 
 2. Navigate to the project directory:
@@ -158,9 +158,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### 📞 İletişim / Contact
 
-- Website: [aemreari.com](https://aemreari.com.tr)
+- Website: [aemreari.com.tr](https://aemreari.com.tr)
 - LinkedIn: [linkedin.com/in/aemreari](https://linkedin.com/in/aemreari)
-- GitHub: [github.com/aemreari](https://github.com/ahmetemreari)
+- GitHub: [github.com/ahmetemreari](https://github.com/ahmetemreari)
 - Email: info@aemreari.com.tr
 
 ---
