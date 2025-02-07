@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - Ahmet Emre ARI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">Ahmet Emre ARI</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="hakkimda.html">Hakkımda</a></li>
+                <li><a href="hizmetlerim.html">Hizmetlerim</a></li>
+                <li><a href="iletisim.html" class="active">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-hero">
+            <div class="contact-content">
+                <h1>Hemen İletişime Geçin</h1>
+                <p class="lead">Projenizi birlikte hayata geçirelim</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>İletişim Bilgileri</h2>
+                    <div class="info-card">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Konum</h3>
+                                <p>İstanbul, Türkiye</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>E-posta</h3>
+                                <p><a href="mailto:info@aemreari.com.tr">info@aemreari.com.tr</a></p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Çalışma Saatleri</h3>
+                                <p>Pazartesi - Cuma: 09:00 - 18:00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-connect">
+                        <h3>Sosyal Medyada Bağlanalım</h3>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/aemreari/" target="_blank" class="social-icon linkedin">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/ahmetemreari" target="_blank" class="social-icon github">
+                                <i class="fab fa-github"></i>
+                            </a>
+                          
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <div class="form-header">
+                        <h2>Proje Teklifi İsteyin</h2>
+                        <p>Projeniz hakkında bilgi verin, en kısa sürede dönüş yapayım.</p>
+                    </div>
+                    <form id="contactForm" onsubmit="return false;">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Ad Soyad</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-posta</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="projectType">Proje Türü</label>
+                            <select id="projectType" name="projectType" required>
+                                <option value="">Seçiniz...</option>
+                                <option value="web">Web Uygulama Geliştirme</option>
+                                <option value="api">API Geliştirme</option>
+                                <option value="ecommerce">E-ticaret Çözümleri</option>
+                                <option value="maintenance">Bakım ve Destek</option>
+                                <option value="other">Diğer</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="budget">Bütçe Aralığı</label>
+                            <select id="budget" name="budget">
+                                <option value="">Seçiniz...</option>
+                                <option value="small">₺5.000 - ₺15.000</option>
+                                <option value="medium">₺15.000 - ₺30.000</option>
+                                <option value="large">₺30.000+</option>
+                                <option value="custom">Görüşülecek</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Proje Detayları</label>
+                            <textarea id="message" name="message" rows="5" required 
+                                placeholder="Projeniz hakkında kısa bir açıklama yazın..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox-container">
+                                <input type="checkbox" required>
+                                <span class="checkmark"></span>
+                                KVKK şartlarını okudum ve kabul ediyorum
+                            </label>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            <span>Gönder</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <h2>Sıkça Sorulan Sorular</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Proje süreçleri nasıl işliyor?</h3>
+                    <p>Analiz, planlama, geliştirme ve test aşamalarından oluşan sistematik bir süreç izliyorum. Her aşamada düzenli olarak bilgilendirme yapıyorum.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Ödeme koşulları nelerdir?</h3>
+                    <p>Projeler genellikle %40 başlangıç, %30 geliştirme sürecinde ve %30 teslimatta olmak üzere 3 taksitte ödeme planı ile ilerliyor.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Proje teslim süreleri ne kadar?</h3>
+                    <p>Projenin kapsamına göre değişmekle birlikte, ortalama 4-8 hafta arasında teslim süresi öngörülüyor.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Bakım ve destek hizmeti veriyor musunuz?</h3>
+                    <p>Evet, proje tesliminden sonra aylık bakım ve destek paketleri ile hizmet vermeye devam ediyorum.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>İletişim</h4>
+                <p>Email: info@aemreari.com.tr</p>
+                <p>Konum: İstanbul, Türkiye</p>
+            </div>
+            <div class="footer-section">
+                <h4>Sosyal Medya</h4>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/aemreari/" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/ahmetemreari" target="_blank">GitHub</a>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Ahmet Emre ARI. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+</body>
+</html>
